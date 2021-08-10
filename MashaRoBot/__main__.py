@@ -74,15 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello My name is` [Emcee](https://telegra.ph/file/7d87151a7172577be4b0b.jpg) 
+`Hello My name is` [Noelle] 
 `I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.
-**Powered By** @DaisyXNews.` 
-"""
+ """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD EMCEE TO YOUR GROUP ➕️", url="t.me/Emcee_Bot?startgroup=true"),
+            text="➕️ ADD Noelle TO YOUR GROUP ➕️", url="t.me/noelle2bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
@@ -90,12 +89,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", url="t.me/DaisyXNews"),
+            text="💾 SOURCE", url="https://t.me/ravens_hq"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/Emcee_Support"),
+            text="👥 SUPPORT", url="https://t.me/noelle_support"),
     ],
     [  
-        InlineKeyboardButton(text="🇮🇳 EMCEE DEVS", url="t.me/EmceeDevs"
+        InlineKeyboardButton(text="🇮🇳 EMCEE DEVS", url="t.me/noelle_devs"
     ),
     ], 
 ]
